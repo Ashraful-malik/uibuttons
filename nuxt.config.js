@@ -49,7 +49,7 @@ export default {
       },
       // Open Graph
       // Test on: https://developers.facebook.com/tools/debug/
-      { hid: "og:site_name", property: "og:site_name", content: "Nuxt" },
+      { hid: "og:site_name", property: "og:site_name", content: "UIButtons" },
       { hid: "og:type", property: "og:type", content: "website" },
       {
         hid: "og:url",
@@ -79,7 +79,7 @@ export default {
       {
         hid: "og:image:alt",
         property: "og:image:alt",
-        content: "CSS Buttons",
+        content: "UI Buttons",
       },
     ],
     link: [
