@@ -1,0 +1,23 @@
+.buttons {
+  ul {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-rows: repeat(6, 100px);
+    gap: 80px;
+    list-style: none;
+
+    li:nth-child(29) {
+      background-color: #e0e5ec;
+    }
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+    }
+  }
+  // display: none;
+}

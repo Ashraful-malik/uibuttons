@@ -1,0 +1,72 @@
+// @mixin  for gradient text color
+
+@mixin text-gradient {
+  background-color: #7b46ed;
+  background-image: $text-color;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+
+  h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .text-gradient {
+    @include text-gradient;
+  }
+  .subtitle {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    & img {
+      width: 2rem;
+    }
+    & p {
+      color: $color-primary;
+    }
+  }
+}
+// hover Effect title
+
+.hover-effect-title {
+  h1 {
+    @include text-gradient;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .header {
+    margin: 2rem 0;
+    text-align: center;
+  }
+}
+
+// media query
+@include media-query {
+  .container {
+    padding: 2rem 0.6rem;
+  }
+  .title-container {
+    // background-color: brown;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+// inter font-family
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+// styling of logo text decoration
+.logo-link {
+  text-decoration: none;
+}
+// colors variable
+@import "./colors";
+@import "./mediaQuery";
+
+// pages
+@import "./footer";
+@import "./navbar";
+@import "./title";
+@import "./button";

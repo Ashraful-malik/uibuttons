@@ -1,0 +1,6 @@
+$breakpoint-small: 450px;
+@mixin media-query {
+  @media only screen and (max-width: $breakpoint-small) {
+    @content;
+  }
+}

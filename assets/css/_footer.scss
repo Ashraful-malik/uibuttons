@@ -1,0 +1,60 @@
+footer {
+  width: 100%;
+  height: 25vh;
+  background: $footer-color;
+  border-top-left-radius: 50px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  h1 {
+    font-size: 2.1rem;
+  }
+  .logo-color {
+    background-color: #9740d4;
+    background-image: $logo-color;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: inline-block;
+  }
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .icon {
+    color: #fff;
+    margin-right: 0.9rem;
+  }
+  .bottom-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      display: flex;
+      align-items: center;
+      color: $light-color;
+      font-size: 1rem;
+      letter-spacing: 0.5px;
+      font-weight: 500;
+    }
+    .feather-heart {
+      color: crimson;
+      width: 1.2rem;
+      margin: 0 8px;
+      // margin-top: 1px;
+    }
+    a {
+      text-decoration: none;
+      text-align: center;
+      color: $light-color;
+      &:hover {
+        border-bottom: 1px solid $light-color;
+      }
+    }
+  }
+}
