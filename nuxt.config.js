@@ -4,14 +4,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Beautiful UI Buttons",
+    title: "Beautiful CSS Buttons",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "Amazing UI button for your Websites",
+        content: "Amazing CSS button for your Websites",
       },
       { name: "format-detection", content: "telephone=no" },
 
@@ -35,12 +35,12 @@ export default {
       {
         hid: "twitter:title",
         name: "twitter:title",
-        content: "UI Buttons",
+        content: "CSS Buttons",
       },
       {
         hid: "twitter:description",
         name: "twitter:description",
-        content: "Beautiful UI Buttons for You Websites",
+        content: "Beautiful CSS Buttons for You Website",
       },
       {
         hid: "twitter:image",
@@ -59,12 +59,12 @@ export default {
       {
         hid: "og:title",
         property: "og:title",
-        content: "UI Buttons",
+        content: "CSS Buttons",
       },
       {
         hid: "og:description",
         property: "og:description",
-        content: "Beautiful UI Buttons for You Websites",
+        content: "Beautiful CSS Buttons for You Websites",
       },
       {
         hid: "og:image",
@@ -79,7 +79,7 @@ export default {
       {
         hid: "og:image:alt",
         property: "og:image:alt",
-        content: "UI Buttons",
+        content: "CSS Buttons",
       },
     ],
     link: [
