@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ashraful-malik/uibuttons">
-    <img src="assets/images/logo.png" alt="Logo" width="90" height="90">
+    <img src="assets/images/logo.png" alt="Logo" >
   </a>
   <p align="center">
     <br />
@@ -17,16 +17,21 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](assets/images/screenshot.png)
+<img src="assets/images/screenshot.png" alt="Logo" >
 
-Now we don't have to create the same Button from scratch in CSS again and again. We can use the UI button for the beautiful Buttons just click and copy the code and use it anywhere on your website.
+Now we don't have to create the same Button from scratch in CSS again and again. We can use the <a href="https://uibuttons.netlify.app/">
+uiButtons
+</a> for the beautiful Buttons just click and copy the code and use it anywhere on your website. <a href="https://uibuttons.netlify.app/hover-buttons">
+<b>We have also the Hover Effect Buttons</b>
+</a>
 
 ### 💻 Built With
 
 - [Nuxt.js](https://nextjs.org/)
 - [Vue.js](https://vuejs.org/)
-- [CSS](https://svelte.dev/)
-- [HTML](https://jquery.com)
+- [CSS](https://web.dev/learn/css/)
+- [scss](https://sass-lang.com/)
+- [HTML](https://html.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -51,6 +56,6 @@ $ npm run generate
 
 ## Contact
 
-Ashraful - [@Ashraful\_\_malik](https://twitter.com/your_username) - ashrafulmalik71@gmail.com.com
+Ashraful - [@Ashraful\_\_malik](https://twitter.com/Ashraful__malik) - ashrafulmalik71@gmail.com.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
