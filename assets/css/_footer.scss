@@ -58,3 +58,11 @@ footer {
     }
   }
 }
+// media query
+@include media-query {
+  footer {
+    h1 {
+      font-size: 1.7rem;
+    }
+  }
+}
