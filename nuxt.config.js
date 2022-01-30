@@ -1,6 +1,5 @@
 require("dotenv").config();
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
   target: "static",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -18,7 +17,6 @@ export default {
       { name: "format-detection", content: "telephone=no" },
 
       // Twitter
-      // Test on: https://cards-dev.twitter.com/validator
       {
         hid: "twitter:card",
         name: "twitter:card",
