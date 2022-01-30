@@ -141,11 +141,13 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   // google analytic
+
   googleAnalytics: {
     id: `${process.env.GOOGLE_ANALYTICS_ID}`,
     disableScriptLoader: true,
     checkDuplicatedScript: true,
   },
+
   publicRuntimeConfig: {
     googleAnalytics: {
       id: `${process.env.GOOGLE_ANALYTICS_ID}`,
