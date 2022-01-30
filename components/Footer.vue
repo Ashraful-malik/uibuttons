@@ -11,8 +11,12 @@
           <a href="https://www.instagram.com/ashraful__malik/" target="_blank">
             <i data-feather="instagram" class="icon"></i>
           </a>
-          <a href="https://codepen.io/ashraful404" target="_blank"> </a>
-          <i data-feather="codepen" class="icon"></i>
+          <a href="https://codepen.io/ashraful404" target="_blank">
+            <i data-feather="codepen" class="icon"></i>
+          </a>
+          <a href="https://github.com/Ashraful-malik/uibuttons" target="_blank">
+            <i data-feather="github" class="icon"></i>
+          </a>
         </div>
       </div>
       <div class="bottom-text">
