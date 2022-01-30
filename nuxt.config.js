@@ -142,13 +142,13 @@ export default {
   build: {},
   // google analytic
   googleAnalytics: {
-    id: `${process.env.GOOGLE_ANALYTICS_ID}`,
+    id: "UA-218934643-1",
     disableScriptLoader: true,
     checkDuplicatedScript: true,
   },
   publicRuntimeConfig: {
     googleAnalytics: {
-      id: `${process.env.GOOGLE_ANALYTICS_ID}`,
+      id: "UA-218934643-1",
       disableScriptLoader: true,
       checkDuplicatedScript: true,
     },
